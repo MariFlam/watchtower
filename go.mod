@@ -1,13 +1,13 @@
 module github.com/containrrr/watchtower
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/containrrr/shoutrrr v0.8.0
 	github.com/distribution/reference v0.6.0
 	github.com/docker/cli v28.1.1+incompatible
 	github.com/docker/docker v24.0.7+incompatible
-	github.com/docker/go-connections v0.4.0
+	github.com/docker/go-connections v0.5.0
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.30.0
 	github.com/prometheus/client_golang v1.18.0
